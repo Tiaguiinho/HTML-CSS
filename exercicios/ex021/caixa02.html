@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: beige;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 20px 0px;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+        h1{
+            text-align: center;
+            background-color: azure;
+            box-shadow: 0px 0px 0px black;
+        }
+        nav{
+            background-color: lightgray;
+            padding:3px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+        nav > a{
+            background-color: gray;
+            color: lightyellow;
+            font-weight: bold;
+            padding: 3px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 10px;
+            width: 10px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!--Antigamente usavamos o div id para cada elemento da página no HTML4
+    <div id="cabeçalho">
+        <h1>
+        </h1>
+    </div>
+    <span>
+    </span> -->
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="https://color.adobe.com/">link adobe</a>
+            <a href="https://ufprvirtual.ufpr.br/">link ufpr</a>
+            <a href="https://siga.ufpr.br/portal/">link siga</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt inventore molestiae facere quos quia magnam velit provident soluta excepturi. Hic, beatae molestiae? Reprehenderit aut at repellat suscipit aspernatur laudantium.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Video</p>
+        <div id="bola"></div>
+    </footer>
+
+    
+</body>
+</html>
